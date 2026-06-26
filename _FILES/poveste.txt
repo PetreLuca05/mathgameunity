@@ -1,0 +1,7 @@
+glob de zapada cu toate personajele in el se sparge si cade peste manualul de matematica
+
+idei:
+
+pe parcusrul jocului sunt elemente ale unei ecuatii. jucatorul daca le primeste pe toate deblocheaza ceva.
+
+cand termina jocul poate sa isi stearga memoria sa ia jocul de la capat
