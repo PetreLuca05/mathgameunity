@@ -154,6 +154,7 @@ public sealed class VolumetricFogRenderPass : ScriptableRenderPass
 	/// </summary>
 	/// <param name="cmd"></param>
 	/// <param name="renderingData"></param>
+#if !UNITY_6000_5_OR_NEWER // Compatibility Mode (non-RenderGraph) removed in URP 17.5 (Unity 6000.5)
 #if UNITY_6000_0_OR_NEWER
 	[Obsolete]
 #endif
@@ -225,6 +226,7 @@ public sealed class VolumetricFogRenderPass : ScriptableRenderPass
 
 		CommandBufferPool.Release(cmd);
 	}
+#endif // !UNITY_6000_5_OR_NEWER
 
 #if UNITY_6000_0_OR_NEWER
 
